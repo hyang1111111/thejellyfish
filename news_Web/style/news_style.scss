@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-color: hsla(0, 0%, 5%, 80);
+  font-size: 1rem;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+#root {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  margin: auto;
+  text-align: center;
+  height: 680px;
+}
+
+.container {
+  margin-inline: auto;
+  padding-inline: 120px;
+  object-fit: cover;
+  display: block;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 80px;
+}
+
+.cross {
+  font-family: 'Pretendard';
+  font-size: 36px;
+  font-weight: 600;
+  color: rgb(245, 245, 245);
+}
+
+.title {
+  font-size: 48px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-block: 24px;
+  padding-bottom: 30px;
+}
+
+.text {
+  display: flex;
+  font-family: 'Pretendard';
+  padding-inline: 36px;
+  align-items: center;
+  margin: auto;
+  max-width: 860px;
+  justify-content: center;
+}
+
+.newsimg {
+  margin-block: 60px;
+  margin-bottom: 60px;
+  img {
+    width: 1240px;
+  }
+}
