@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  color: white;
+  color: rgb(235, 235, 235);
   text-align: center;
 }
 
@@ -9,13 +9,14 @@ body {
   background-color: hsl(0deg, 0%, 5%);
   font-size: 1rem;
   line-height: 1.5;
-  overflow: hidden;
+}
+
+.header__container h1 {
+  margin-top: -10px;
 }
 
 #root {
   display: flex;
-  overflow-x: hidden;
-  overflow-y: scroll;
   justify-content: center;
   align-items: center;
 }
@@ -28,6 +29,7 @@ body {
 
 .container {
   margin-inline: auto;
+  margin-block: 48px;
   padding-inline: 120px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -36,7 +38,6 @@ body {
 
 h1 {
   font-family: "Times New Roman", Times, serif;
-  margin-bottom: 80px;
 }
 
 .cross {

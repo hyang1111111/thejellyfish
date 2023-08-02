@@ -61,12 +61,6 @@ button p {
   padding-block: 6px;
 }
 
-#root {
-  height: 100dvh;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
 .header {
   position: -webkit-sticky;
   position: sticky;
