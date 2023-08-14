@@ -81,6 +81,14 @@ button {
 
 .profile {
   margin: auto;
+  width: 280px;
+  height: auto;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 .contents {

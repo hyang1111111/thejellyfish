@@ -204,6 +204,9 @@ button {
   }
 
   .text {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
     max-width: 870px;
     justify-content: center;
     align-items: center;
@@ -211,7 +214,6 @@ button {
     flex-wrap: wrap;
     flex-basis: auto;
     padding-inline: 24px;
-    text-align: left;
   }
 }
 
